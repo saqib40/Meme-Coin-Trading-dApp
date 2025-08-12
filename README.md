@@ -27,9 +27,3 @@
 - Allow users to select from a list of meme coins (e.g., via a dropdown populated by Raydium’s token list).
 ### Transaction History: 
 - Display a list of recent swap transactions with links to Solana Explorer.
-
-## (To Add) Providing Liquidity (Extended Scope)
-- This is a more complex financial action. The user needs to:
-- Select a pair of tokens (e.g., SOL and WIF).
-- Deposit an equal value of both tokens into the pool.
-- In return, they receive a new, third token called an LP Token, which represents their share of that specific liquidity pool
