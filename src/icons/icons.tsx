@@ -5,11 +5,15 @@ const SolanaLogo = () => (
 );
 
 const WifLogo = () => (
-    <img src="https://placehold.co/24x24/1a1f2e/ffffff?text=WIF" alt="WIF" className="rounded-full" />
+    <img src="https://placehold.co/24x24/1a1f2e/ffffff?text=WIF" alt="WIF" className="rounded-full w-full h-full" />
 );
 
 const BonkLogo = () => (
-    <img src="https://placehold.co/24x24/1a1f2e/ffffff?text=BONK" alt="BONK" className="rounded-full" />
+    <img src="https://placehold.co/24x24/1a1f2e/ffffff?text=BONK" alt="BONK" className="rounded-full w-full h-full" />
+);
+
+const WenLogo = () => (
+    <img src="https://placehold.co/24x24/1a1f2e/ffffff?text=WEN" alt="WEN" className="rounded-full w-full h-full" />
 );
 
 const ChevronDown = () => (
@@ -30,4 +34,4 @@ const ExternalLinkIcon = () => (
     </svg>
 );
 
-export {SolanaLogo, WifLogo, BonkLogo, ChevronDown, ArrowDown, ExternalLinkIcon};
+export {SolanaLogo, WifLogo, BonkLogo, WenLogo, ChevronDown, ArrowDown, ExternalLinkIcon};

@@ -12,7 +12,6 @@ export const useWalletBalance = () => {
             setBalance(null);
             return;
         }
-
         try {
             const lamports = await connection.getBalance(publicKey);
             setBalance(lamports / LAMPORTS_PER_SOL);

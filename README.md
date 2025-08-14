@@ -1,8 +1,8 @@
-## Using
+## Using :
 - [@solana/web3.js](https://github.com/solana-foundation/solana-web3.js)
 - [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter/tree/master)
 - [@solana/spl-token](https://www.solana-program.com/docs/token)
-- [Raydium as AMM](https://docs.raydium.io/raydium)
+- Raydium as AMM => [here](https://docs.raydium.io/raydium), [here](https://www.npmjs.com/package/@raydium-io/raydium-sdk-v2), and [here](https://github.com/raydium-io/raydium-sdk-V2-demo/tree/master)
 
 ## The flow :
 ### Connects Wallet:
@@ -27,3 +27,4 @@
 - Allow users to select from a list of meme coins (e.g., via a dropdown populated by Raydium’s token list).
 ### Transaction History: 
 - Display a list of recent swap transactions with links to Solana Explorer.
+
