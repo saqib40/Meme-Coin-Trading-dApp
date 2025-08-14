@@ -1,3 +1,4 @@
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { SolanaLogo } from "../icons/icons";
 
 const Header = () => {
@@ -7,10 +8,7 @@ const Header = () => {
         <SolanaLogo />
         <h1 className="text-xl font-bold text-white">Meme Trader</h1>
       </div>
-      {/* This is where the actual <WalletMultiButton /> would go */}
-      <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition-colors">
-        Connect Wallet
-      </button>
+      <WalletMultiButton/>
     </header>
   );
 };

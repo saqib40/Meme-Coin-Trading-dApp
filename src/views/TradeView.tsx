@@ -15,7 +15,6 @@ function TradeView() {
     <div className="bg-[#1a1f2e] min-h-screen font-sans text-gray-300 flex flex-col items-center pt-4 sm:pt-10">
       <div className="w-full max-w-md mx-auto space-y-8 px-4">
         <Header />
-        
         <main>
           <SwapForm />
         </main>
